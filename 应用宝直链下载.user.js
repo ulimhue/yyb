@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         应用宝 APK 直链下载
 // @namespace    https://sj.qq.com
-// @version      1.0
+// @version      1.1
 // @description  在应用宝网页版一键获取 APK 下载直链，无需安装应用宝客户端
 // @author       opencode
 // @match        https://sj.qq.com/appdetail/*
