@@ -156,7 +156,6 @@
         Object.assign(btn.style, {
             position: 'fixed',
             right: '20px',
-            top: '80px',
             zIndex: '99999',
             padding: '12px 20px',
             background: 'linear-gradient(135deg, #07c160, #06ad56)',
@@ -226,6 +225,7 @@
     }
 
     GM_addStyle(`
+        #yyb-direct-dl-btn { top:80px;bottom:auto; }
         @media (max-width:640px) {
             #yyb-direct-dl-btn {
                 right:12px;top:auto;bottom:20px;
